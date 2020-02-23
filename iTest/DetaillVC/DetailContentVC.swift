@@ -79,6 +79,7 @@ class DetailContentVC: UIViewController {
         $0.isUserInteractionEnabled = true
         $0.layer.borderWidth = 1
         $0.layer.borderColor = UIColor.lightGray.cgColor
+        $0.isExclusiveTouch = true
     }
     
     lazy var shareButtonV:UIButton = UIButton().then {
@@ -88,6 +89,7 @@ class DetailContentVC: UIViewController {
         $0.isUserInteractionEnabled = true
         $0.layer.borderWidth = 1
         $0.layer.borderColor = UIColor.lightGray.cgColor
+        $0.isExclusiveTouch = true
     }
     
     lazy var separator1V:UIView = UIView().then {
